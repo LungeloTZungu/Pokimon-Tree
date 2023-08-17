@@ -21,7 +21,7 @@ namespace Pokemon_Tree
             tree.Insert(4, "Charmander");
             tree.Insert(1, "Bulbasaur");
 
-            Console.WriteLine(tree.Find(151));
+            Console.WriteLine(tree.Find(151)); // this is where we find the pokimon name based on the key 
         }
     }
 }
